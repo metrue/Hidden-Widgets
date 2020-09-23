@@ -12,8 +12,8 @@ Follow these instructions to install the app from source.
 3. Click on the topmost parent folder on the left `HomeScreenSpaces` (with a blue `xcodeproj` file icon).
 4. Make sure the `HomeScreenSpaces` target is selected on the targets pane on the left.
 5. Under the Signing & Capabilities tab, change the team to your account.
-5. Change the bundle identifier to have your name/domain name. For example, if your domain name is `abcd`, change the bundle identifier to `com.abcd.homescreenspaces`
-6. In the App Groups section (below the signing section), uncheck the existing app group with my domain name. Create a new app group and name it `group.[YOUR_BUNDLE_IDENTIFER]`. For example, if you had set your bundle identifier to `com.abcd.homescreenspaces` in step 5, set the app group name to `group.com.abcd.homescreenspaces`.
+5. Change the bundle identifier to have your name/domain name. For example, if your domain name is `abcd`, change the bundle identifier to `com.abcd.hss`
+6. In the App Groups section (below the signing section), uncheck the existing app group with my domain name. Create a new app group and name it `group.[YOUR_BUNDLE_IDENTIFER]`. For example, if you had set your bundle identifier to `com.abcd.hss` in step 5, set the app group name to `group.com.abcd.hss`.
 7. Make sure you change the team and bundle identifier's company name for the remaining two targets by selecting them from the targets pane on the left. Also make sure you set the app group of the `EmptySpaceWidgetExtension` target to be the same as the main `HomeScreenSpaces` target.
 8. Connect your iOS 14 device and select it from the device selector on the top left.
 9. Hit the run button and wait while Xcode installs the app on your device.
