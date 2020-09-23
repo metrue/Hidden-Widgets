@@ -16,6 +16,12 @@ class ImageLoader {
         print("loading", bundleId)
         let bundleIdComponents = bundleId.split(separator: ".")
         bundleId = bundleIdComponents[0] + "." + bundleIdComponents[1] + "." + bundleIdComponents[2]
+        if bundleIdComponents.count > 3 {
+            if bundleIdComponents[3] != "EmptySpaceWidget" {
+                // for AltStore
+                bundleId += "." + bundleIdComponents[3]
+            }
+        }
         guard let url = fileManager.containerURL(forSecurityApplicationGroupIdentifier: "group.\(bundleId)")?.appendingPathComponent("\(name).png") else { return nil }
         if fileManager.fileExists(atPath: url.path) {
             let image = UIImage(contentsOfFile: url.path)

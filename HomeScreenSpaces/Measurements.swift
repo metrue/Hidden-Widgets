@@ -17,7 +17,7 @@ class Measurements {
         "828x1792": 338, // iPhone XR, iPhone 11
         "1242x2688": 507, // iPhone XS Max, iPhone 11 Pro Max
         "1125x2436": 465, // iPhone X, iPhone XS, iPhone 11 Pro
-        "1242x2208": 477, // iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus, iPhone 8 Plus
+        "1242x2208": 471, // iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus, iPhone 8 Plus
         "750x1334": 296, // iPhone 6, iPhone 6S, iPhone 7, iPhone 8, iPhone SE 2
         "640x1136": 282, // iPhone 5, iPhone 5S, iPhone 5C, iPhone SE, iPod Touch 7
         
@@ -32,7 +32,7 @@ class Measurements {
         "828x1792": 420, // iPhone XR, iPhone 11
         "1242x2688": 630, // iPhone XS Max, iPhone 11 Pro Max
         "1125x2436": 570, // iPhone X, iPhone XS, iPhone 11 Pro
-        "1242x2208": 594, // iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus, iPhone 8 Plus
+        "1242x2208": 582, // iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus, iPhone 8 Plus
         "750x1334": 352, // iPhone 6, iPhone 6S, iPhone 7, iPhone 8, iPhone SE 2
         "640x1136": 340, // iPhone 5, iPhone 5S, iPhone 5C, iPhone SE, iPod Touch 7
         
@@ -47,7 +47,7 @@ class Measurements {
         "828x1792": 382, // iPhone XR, iPhone 11
         "1242x2688": 573, // iPhone XS Max, iPhone 11 Pro Max
         "1125x2436": 522, // iPhone X, iPhone XS, iPhone 11 Pro
-        "1242x2208": 567, // iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus, iPhone 8 Plus
+        "1242x2208": 573, // iPhone 6 Plus, iPhone 6S Plus, iPhone 7 Plus, iPhone 8 Plus
         "750x1334": 346, // iPhone 6, iPhone 6S, iPhone 7, iPhone 8, iPhone SE 2
         "640x1136": 302, // iPhone 5, iPhone 5S, iPhone 5C, iPhone SE, iPod Touch 7
         
