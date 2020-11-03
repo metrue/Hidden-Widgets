@@ -14,6 +14,7 @@ class Measurements {
     //// Width and height of the widget
     static let WIDGET_SIZE: [String: Int] = [
         // Standard Dispay Mode
+        "1170x2532": 474, // iPhone 12, iPhone 12 Pro
         "828x1792": 338, // iPhone XR, iPhone 11
         "1242x2688": 507, // iPhone XS Max, iPhone 11 Pro Max
         "1125x2436": 465, // iPhone X, iPhone XS, iPhone 11 Pro
@@ -29,6 +30,7 @@ class Measurements {
     //// Vertical spacing between top edges of two widgets
     static let VERTICAL_SPACING: [String: Int] = [
         // Standard Dispay Mode
+        "1170x2532": 588, // iPhone 12, iPhone 12 Pro
         "828x1792": 420, // iPhone XR, iPhone 11
         "1242x2688": 630, // iPhone XS Max, iPhone 11 Pro Max
         "1125x2436": 570, // iPhone X, iPhone XS, iPhone 11 Pro
@@ -44,6 +46,7 @@ class Measurements {
     //// Vertical spacing between right edges of two widgets
     static let HORIZONTAL_SPACING: [String: Int] = [
         // Standard Dispay Mode
+        "1170x2532": 540, // iPhone 12, iPhone 12 Pro
         "828x1792": 382, // iPhone XR, iPhone 11
         "1242x2688": 573, // iPhone XS Max, iPhone 11 Pro Max
         "1125x2436": 522, // iPhone X, iPhone XS, iPhone 11 Pro
@@ -59,6 +62,7 @@ class Measurements {
     //// Space between top edge of widget and image (screenshot)
     static let TOP_SPACING: [String: Int] = [
         // Standard Dispay Mode
+        "1170x2532": 231, // iPhone 12, iPhone 12 Pro
         "828x1792": 160, // iPhone XR, iPhone 11
         "1242x2688": 228, // iPhone XS Max, iPhone 11 Pro Max
         "1125x2436": 213, // iPhone X, iPhone XS, iPhone 11 Pro
@@ -74,6 +78,7 @@ class Measurements {
     //// Space between left edge of widget and image (screenshot)
     static let LEFT_SPACING: [String: Int] = [
         // Standard Dispay Mode
+        "1170x2532": 78, // iPhone 12, iPhone 12 Pro
         "828x1792": 54, // iPhone XR, iPhone 11
         "1242x2688": 81, // iPhone XS Max, iPhone 11 Pro Max
         "1125x2436": 69, // iPhone X, iPhone XS, iPhone 11 Pro
